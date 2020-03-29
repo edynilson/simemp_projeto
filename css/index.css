@@ -1,0 +1,113 @@
+/*
+* @Author: Ricardo Órfão
+* @Date:   2014-08-08 17:47:50
+* @Last Modified by:   Ricardo Órfão
+* @Last Modified time: 2014-10-01 20:57:17
+*/
+
+/*csslint box-sizing: false, important: true*/
+body,.middle-cell{background-color:#1485cc}
+button {border: 0;padding: 0;cursor: pointer;margin:0 auto;display: block;color: #fff}
+button::-moz-focus-inner {border: none;padding: 0}
+footer{background-color:#1b1b1b;width:100%;text-align: center;display:table}
+html,body{height:100%;height:99.99999%;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif}
+img {width: 80%;height: auto; margin: 0.2%;max-width:309px}
+section{display:table;height:100%;min-height:100%;width:96%;margin: 0 auto -3.125em auto}
+section,footer{text-align:center}
+section>.row{display:table-row}
+section>.row>.cell{display:table-cell}
+video {width: 100%;height: auto}
+
+.blind {position:absolute;z-index:9999;top:0;left:0;width:100%;height:100%;background-color:#000000}
+.btnInicio {width: 100%;height: 3em;font-weight: bold;-webkit-border-radius: 10px;-moz-border-radius: 6px;border-radius: 10px;text-transform: uppercase}
+.btnLogin {background-color: #1b1b1b;margin-top: 4%}
+.btnRegister {background-color: #003150;margin-top: 2%}
+.cell-footer{width: 100%;color: #fff;line-height: 1.5em;display: table-cell;vertical-align: middle}
+.close {background: #606061;color: #FFFFFF;line-height: 25px;position: absolute;right: -12px;text-align: center;top: -10px;width: 24px;text-decoration: none;font-weight: bold;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;-moz-box-shadow: 1px 1px 3px #000;-webkit-box-shadow: 1px 1px 3px #000;box-shadow: 1px 1px 3px #000}
+.close:hover {background: #1485cc}
+.erro-tri {width: 0;height: 0;margin: 0.375em auto 0 auto;border-style: solid;border-width: 0 0.375em 0.65em 0.375em;border-color: transparent transparent #e52727 transparent}
+.error {-moz-border-radius: 6px;-webkit-border-radius: 6px;background: #e52727;border-radius: 6px;color: #fff;display: table;width: 100%}
+.error span {display: table-cell;padding: 7px;text-align: center;vertical-align: middle}
+.frmLogin {width: 80%;max-width:309px;margin: 0 auto}
+.main-content{display:inline-block;width:97.9166667%;padding:0.9%}
+.middle-cell{vertical-align:middle}
+.middle-row{height:100%}
+.normal {font-size: 1em}
+.player {width: 20px;height: 20px;vertical-align: middle}
+.push,footer{height:3.125em}
+.small {font-size: 0.84em}
+.table {width: 100%;height: 100px;display: table;border-collapse: separate;border-spacing: 0}
+.table .tr .th,.table .tr .td {border-right: 1px solid #bbb;padding: 5px}
+.table .tr .th, .table .tr .td {background: #eee;background: -moz-linear-gradient(top, #eee 1%, #e3e3e3 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#eee), color-stop(100%,#e3e3e3));background: -webkit-linear-gradient(top, #eee 1%,#e3e3e3 100%);background: -o-linear-gradient(top, #eee 1%,#e3e3e3 100%);background: -ms-linear-gradient(top, #eee 1%,#e3e3e3 100%);background: linear-gradient(to bottom, #eee 1%,#e3e3e3 100%)}
+.table .tr:first-child .th:first-child {border-top-left-radius: 10px;box-shadow: inset 3px 2px 3px 0 rgba(0, 0, 0, .7)}
+.table .tr:first-child .th:last-child {border-top-right-radius: 10px}
+.table .tr:last-child .td:first-child {border-bottom-left-radius: 10px}
+.table .tr:last-child .td:last-child {border-bottom-right-radius: 10px;box-shadow: inset 3px 0 3px 0 rgba(0, 0, 0, .7)}
+.table input {box-sizing: border-box;border: 1px solid #dadada;width: 79.5%;height: 30px;background-color: transparent;color: #757575;text-indent: 2.2em}
+.table input:focus {outline: none;border-color: #9ecaed;box-shadow: 0 0 10px #9ecaed}
+.table input::-webkit-input-placeholder {color: #A8A8A8;font-style: italic}
+.table input:-ms-input-placeholder {color: #BEBCBC;font-style: italic}
+.table input:-moz-placeholder,textarea:-moz-placeholder {color: #A8A8A8;font-style: italic;opacity: 1}
+.table input::-moz-placeholder,textarea::-moz-placeholder {color: #A8A8A8;font-style: italic;opacity: 1}
+.tblCell {display:table-cell;text-align: center;width: 50%;vertical-align: top}
+.tblCell a {text-decoration: none; color:#fff; font-weight: bold;letter-spacing: 2px}
+.tblVideo {/*display:none;*/display: table;width: 80%;max-width: 120px;margin: 0 auto; height: 25px}
+.td,.th {display: table-cell;vertical-align: middle}
+.tr {display: table-row}
+.txtUsernameLogin {background: url('../images/user-icon.png') no-repeat scroll left center; background-position: 6px}
+.txtPasswordLogin {background: url('../images/pass-icon.png') no-repeat scroll left center; background-position: 6px}
+.window {position:absolute;z-index:10000;width:80%;max-width: 768px;left:-1000px;top:-1000px}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    html,body{height:100%}
+    .cell-footer{height:3.125em}
+}
+
+/* Grandes monitores */
+/*min-width: 1824px*/
+@media only screen and (min-width: 114em) {
+    .btnLogin:hover {background-color: #0b0b0b}
+    .btnRegister:hover {background-color: #001623}
+}
+
+/* Desktops and laptops */
+/*min-width: 1025px at max-width: 1823px*/
+@media only screen and (min-width: 64.0625em) and (max-width: 113.9375em) {
+    .btnLogin:hover {background-color: #0b0b0b}
+    .btnRegister:hover {background-color: #001623}
+}
+
+/* Tablets landscape */
+/*min-width: 768px at max-width: 1024px*/
+@media only screen and (min-width: 48em) and (max-width: 64.062em) and (orientation: landscape) {
+    .btnLogin:hover {background-color: #0b0b0b}
+    .btnRegister:hover {background-color: #001623}
+}
+
+/* Tablets portrait */
+/*min-width: 768px at max-width: 1024px*/
+@media only screen and (min-width: 48em) and (max-width: 64.062em) and (orientation: portrait) {
+}
+
+/* Tablets pequenos */
+/*min-width: 481px at max-width: 767px*/
+@media only screen and (min-width: 30.0625em) and (max-width: 47.9375em) {
+}
+
+/* Smartphones landscape */
+/*min-width: 320px at max-width: 480px*/
+@media only screen and (min-width: 20em) and (max-width: 30em) and (orientation: landscape) {
+
+}
+
+/* Smartphones portrait */
+/*min-width: 320px at max-width: 480px*/
+@media only screen and (min-width: 20em) and (max-width: 30em) and (orientation: portrait) {
+
+}
+
+/* Smartphones pequenos */
+/*max-width: 319px*/
+@media only screen and (max-width: 19.9375em) {
+
+}

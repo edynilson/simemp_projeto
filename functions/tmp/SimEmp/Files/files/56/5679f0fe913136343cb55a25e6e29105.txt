@@ -1,0 +1,1 @@
+a:3:{s:1:"d";a:1:{i:0;a:7:{s:8:"id_grupo";i:39;s:3:"mes";i:3;s:3:"ano";i:2021;s:11:"data_inicio";s:10:"2020-02-18";s:11:"hora_inicio";s:8:"00:00:00";s:8:"data_fim";s:10:"2020-02-21";s:8:"hora_fim";s:8:"23:59:59";}}s:1:"t";O:8:"DateTime":3:{s:4:"date";s:26:"2020-02-19 09:30:07.384560";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/London";}s:1:"g";a:0:{}}

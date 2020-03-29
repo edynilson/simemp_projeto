@@ -1,0 +1,232 @@
+/*
+* @Author: Ricardo Órfão
+* @Date:   2014-05-04 13:22:09
+* @Last Modified by:   Ricardo Órfão
+* @Last Modified time: 2014-09-30 17:05:09
+*/
+
+@font-face {font-family: 'icomoon';src:url('../fonts/icomoon/icomoon.eot');src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),url('../fonts/icomoon/icomoon.woff') format('woff'),url('../fonts/icomoon/icomoon.ttf') format('truetype'),url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');font-weight: normal;font-style: normal}
+body {width: 100%;height: 100%;background-color: #c5d5e7}
+button {border: 0;padding: 0;cursor: pointer;overflow: visible}
+button::-moz-focus-inner {border: none;padding: 0}
+h1 {margin: 0 0 0 5.2%;font-weight: normal;color: #c5d5e7;line-height: 60px}
+input[type="text"], input[type="password"]{border: none;background-color: transparent;text-indent: 0.5em;color: #757575;height: 38px;padding: 0}
+input:focus {margin: 1px 0;height: 36px;outline: none;border-color: #9ecaed;box-shadow: 0 0 5px #9ecaed}
+input::-webkit-input-placeholder {color: #A8A8A8;font-style: italic}
+input:-ms-input-placeholder {color: #BEBCBC;font-style: italic}
+input:-moz-placeholder,textarea:-moz-placeholder {color: #A8A8A8;font-style: italic;opacity: 1}
+input::-moz-placeholder,textarea::-moz-placeholder {color: #A8A8A8;font-style: italic;opacity: 1}
+
+.big {font-size: 4.7em}
+.botao {background: #77a4d7;color: #eaedf1;text-transform: uppercase;font-weight: 700;margin: 0 0.45em;padding: 0 1.6em 0 4.1em;vertical-align: top;line-height: 38px;-ms-transform: translate(0, 0);-webkit-transform: translate(0, 0);-moz-transform: translate(0, 0);-o-transform: translate(0, 0);transform: translate(0, 0)}
+.botao:active {-ms-transform: translate(1px, 4px);-webkit-transform: translate(1px, 4px);-moz-transform: translate(1px, 4px);-o-transform: translate(1px, 4px);transform: translate(1px, 4px)}
+.botao:before {position: absolute;left: 0;width: 42px;background: #2b6db9;font-family: 'icomoon';font-weight: normal;color: #77a4d7}
+.botaoIcon {height: 38px;background: #77a4d7;line-height: 38px;outline: #77a4d7;margin: 0 0.45em;padding: 0 0.25em;color: #eaedf1;-ms-transform: translate(0, 0);-webkit-transform: translate(0, 0);-moz-transform: translate(0, 0);-o-transform: translate(0, 0);transform: translate(0, 0)}
+.botaoIcon:active {-ms-transform: translate(1px, 4px);-webkit-transform: translate(1px, 4px);-moz-transform: translate(1px, 4px);-o-transform: translate(1px, 4px);transform: translate(1px, 4px)}
+.botaoIcon:before {font-family: 'icomoon';font-size: 1.9em}
+.botoes {width: 100%;text-align: right}
+.chosen-select {width: 80%}
+.chosen-container {margin-right: 6px}
+.chosen-container-active.chosen-with-drop .chosen-single {background: #eaedf1}
+.chosen-container-active.chosen-with-drop .chosen-single div b {background-position: -17px 10px}
+.chosen-container-single .chosen-single {height: 38px;border-radius: 0;background: #eaedf1;border: none; box-shadow: none}
+.chosen-container-single .chosen-single div b {background: url('images/chosen-sprite.png') no-repeat 0 10px}
+.chosen-container-single .chosen-single span {height: 38px;line-height: 38px}
+.chosen-drop .chosen-results {max-height: 100px; background: #eaedf1}
+.content {padding: 25px 13px;background-color: #fff}
+.dinheiro {width: 87%}
+.divActiva {width: 50%;background-color: #2b6db9;display: table;height: 100%}
+.divInactiva {width: 50%;background-color: #77a4d7;display: table;height: 100%}
+.error {width: 100%;height: 40px;background-color: #e52727;margin-top: 0.25em;color: #ff9797;text-align: center;line-height: 40px}
+.icon-banco:before {content: "\e005"}
+.icon-company:before {content: "\e00d"}
+.icon-group:before {content: "\e017"}
+.icon-local:before {content: "\e007"}
+.icon-mail:before {content: "\e006"}
+.icon-morada:before {content: "\e00B"}
+.icon-ok:before {content: "\e031"}
+.icon-pass:before {content: "\e002"}
+.icon-sair:before {content: "\e009"}
+.icon-tag:before {content: "\e008"}
+.icon-user:before {content: "\e016"}
+.iconwrapper {height: 38px;width: 38px;display: table;background-color: #77a4d7}
+.inner {margin-left: auto;margin-right: auto;width: 500px}
+.inputarea_alone {background-color: #eaedf1;width: 220px}
+.inputarea_big {background-color: #eaedf1;width: 380px}
+.inputarea_col {background-color: #eaedf1;width: 80%}
+.left {float: left}
+.linha {width: 50%;margin-bottom: 20px}
+.middle {display: table-cell;vertical-align: middle}
+.mnyLabel {background-color: #77a4d7;color: white;width: 10.5%; text-align: center;}
+.mnyLabel span {color: white;font-style: normal; display: inline}
+.niveis {font-family: 'icomoon';height: 1.49em;text-align: center}
+.nivelactiveicon {display: table-cell;vertical-align: middle;color: #77a4d7}
+.nivelinactiveicon {display: table-cell;vertical-align: middle;color: #2b6db9}
+.novolabelicon {display: table-cell;vertical-align: middle;font-family: 'icomoon';text-align: center;color: #eaedf1;-webkit-font-smoothing: antialiased}
+.normal {font-size: 1.2em}
+.outer {display: table;position: absolute;height: 100%;width: 100%}
+.right {float: right}
+.small {font-size: 0.8em}
+.textoReadonly {display: inline-block;vertical-align: middle;line-height: 38px;text-indent: 0.5em;cursor: default;color: #A8A8A8;font-style: italic;white-space: nowrap;overflow: hidden;text-overflow: ellipsis}
+.tipo {height: 86px;position: relative;width: 50%}
+.tipo img {width: 100%;height: 100%}
+.tipo input {display: none}
+.tipo label {position: absolute;cursor: pointer;height: 100%;width: 100%}
+.title {height: 60px;width: 100%;background-color: #1b1b1b}
+.width100 {width: 100%}
+
+
+
+/* Grandes monitores */
+/*min-width: 1824px*/
+@media only screen and (min-width: 114em) {
+    .botao:hover {background: #508bce}
+    .botao:hover:before {background: #15539a}
+    .botaoIcon:hover {background: #508bce}
+    .chosen-select {width: 70%}
+    .chosen-container {margin-right: 0;margin-left: 10%}
+    .chosen-container#slcGrupoReg_chosen {margin-left: 0}
+    .iconwrapper {margin-left: 10%}
+    .iconwrappergrande {margin-left: 5%}
+    .inner {margin-left: auto;margin-right: auto;width: 60%;max-width: 768px}
+    .inputarea_col {width: 70%}
+    .middle {margin-left: 10%}
+    .money .inputarea_col {margin-left: 10%}
+    .money input {width: 90%}
+    .mnyLabel {width: 8%}
+    .nova_emp {background-color: #1B1B1B}
+    .emp_exist {background-color: #3F3F3F}
+    .tipo {text-align: center}
+    .tipo img {width: auto}
+    .tipo label {left: 0}
+}
+
+/* Desktops and laptops */
+/*min-width: 1025px at max-width: 1823px*/
+@media only screen and (min-width: 64.0625em) and (max-width: 113.9375em) {
+    .botao:hover {background: #508bce}
+    .botao:hover:before {background: #15539a}
+    .botaoIcon:hover {background: #508bce}
+    .chosen-select {width: 70%}
+    .chosen-container {margin-right: 0;margin-left: 10%}
+    .chosen-container#slcGrupoReg_chosen {margin-left: 0}
+    .iconwrapper {margin-left: 10%}
+    .iconwrappergrande {margin-left: 5%}
+    .inner {margin-left: auto;margin-right: auto;width: 60%;max-width: 768px}
+    .inputarea_col {width: 70%}
+    .middle {margin-left: 10%}
+    .money .inputarea_col {margin-left: 10%}
+    .money input {width: 90%}
+    .mnyLabel {width: 8%}
+    .nova_emp {background-color: #1B1B1B}
+    .emp_exist {background-color: #3F3F3F}
+    .tipo {text-align: center}
+    .tipo img {width: auto}
+    .tipo label {left: 0}
+}
+
+/* Tablets landscape */
+/*min-width: 768px at max-width: 1024px*/
+@media only screen and (min-width: 48em) and (max-width: 64.062em) and (orientation: landscape) {
+    .botao:hover {background: #508bce}
+    .botao:hover:before {background: #15539a}
+    .botaoIcon:hover {background: #508bce}
+    .chosen-container {margin-right: 0}
+    .inputarea_alone {width: 135px}
+    .inputarea_big {width: 388px}
+    .wbutton {width: 151px}
+}
+
+/* Tablets portrait */
+/*min-width: 768px at max-width: 1024px*/
+@media only screen and (min-width: 48em) and (max-width: 64.062em) and (orientation: portrait) {
+    .chosen-container {margin-right: 0}
+    .inputarea_alone {width: 135px}
+    .inputarea_big {width: 388px}
+    .wbutton {width: 151px}
+}
+
+/* Tablets pequenos */
+/*min-width: 481px at max-width: 767px*/
+@media only screen and (min-width: 30.0625em) and (max-width: 47.9375em) {
+    h1 {margin: 0;line-height: 1.6em;text-align:center;font-size:1.6em}
+    .big {font-size: 3.5em}
+    .chosen-container {margin-right: 0}
+    .inputarea_alone {width: 135px}
+    .inputarea_big {width: 388px}
+    .niveis {height: 1.5em}
+    .title {height: 2.5em}
+    .wbutton {width: 151px}
+}
+
+/* Smartphones landscape */
+/*min-width: 320px at max-width: 480px*/
+@media only screen and (min-width: 20em) and (max-width: 30em) and (orientation: landscape) {
+    h1 {margin: 0;line-height: 1.6em;text-align:center;font-size:1.6em}
+    .big {font-size: 3.5em}
+    .chosen-container {margin-right: 0}
+    .divActiva {display: inherit}
+    .divInactiva {display: inherit}
+    .inner {width: 100%}
+    .inputarea_alone {width: 110px}
+    .inputarea_big {width: 356px}
+    .niveis {height: 1.5em}
+    .nivelactiveicon {display: inherit;line-height: 1.5em}
+    .nivelinactiveicon {display: inherit;line-height: 1.5em}
+    .small {font-size: 0.7em}
+    .title {height: 2.5em}
+}
+
+/* Smartphones portrait */
+/*min-width: 320px at max-width: 480px*/
+@media only screen and (min-width: 20em) and (max-width: 30em) and (orientation: portrait) {
+    h1 {margin: 0;line-height: 1.6em;text-align:center;font-size:1.6em}
+    .big {font-size: 3em}
+    .chosen-container {margin-right: 0;margin-left: 10%}
+    .chosen-container#slcGrupoReg_chosen {margin-left: 0}
+    .chosen-select {width: 84%}
+    .divActiva {display: inherit}
+    .divInactiva {display: inherit}
+    .iconwrapper {margin-left: 10%}
+    .inner {width: 100%}
+    .inputarea_alone {width: 50.5%}
+    .inputarea_col, .inputarea_big {width: 70%}
+    .linha {width: 100%;margin-bottom: 10px}
+    .middle {margin-left: 10%; width: 84%}
+    .money input {width: 90%}
+    .mnyLabel {width: 8%}
+    .niveis {height: 1.2em}
+    .nivelactiveicon {display: inherit;line-height: 1.2em}
+    .nivelinactiveicon {display: inherit;line-height: 1.2em}
+    .small {font-size: 0.7em}
+    .special {display:none}
+    .title {height: 2.5em}
+    .tipo {height: 50px}
+}
+
+/* Smartphones pequenos */
+/*max-width: 319px*/
+@media only screen and (max-width: 19.9375em) {
+    h1 {margin: 0;line-height: 1.6em;text-align:center;font-size:1.6em}
+    .big {font-size: 3em}
+    .chosen-container {margin-right: 0;margin-left: 5%}
+    .chosen-container#slcGrupoReg_chosen {margin-left: 0}
+    .chosen-select {width: 84%}
+    .divActiva {display: inherit}
+    .divInactiva {display: inherit}
+    .iconwrapper {margin-left: 5%}
+    .inner {width: 100%}
+    .inputarea_alone {width: 50.5%}
+    .inputarea_col, .inputarea_big {width: 70%}
+    .linha {width: 100%;margin-bottom: 10px}
+    .middle {margin-left: 5%; width: 84%}
+    .money input {width: 90%}
+    .mnyLabel {width: 8%}
+    .niveis {height: 1.2em}
+    .nivelactiveicon {display: inherit;line-height: 1.2em}
+    .nivelinactiveicon {display: inherit;line-height: 1.2em}
+    .small {font-size: 0.7em}
+    .special {display:none}
+    .title {height: 2.5em}
+    .tipo {height: 50px}
+}

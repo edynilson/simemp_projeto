@@ -1,0 +1,107 @@
+/*
+* @Author: Ricardo Órfão
+* @Date:   2014-08-08 17:47:50
+* @Last Modified by:   Ricardo Órfão
+* @Last Modified time: 2014-09-26 18:29:37
+*/
+/*csslint box-sizing: false, important: true*/
+@font-face {font-family: 'icomoon';font-weight: normal;font-style: normal;src: url('../fonts/icomoon/icomoon.eot');src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.woff') format('woff'), url('../fonts/icomoon/icomoon.ttf') format('truetype'), url('../fonts/icomoon/icomoon.svg#icomoon') format('svg')}
+@font-face {font-family: 'helvetica-light';src: url('../fonts/helvetica/HelveticaNeueLTCom-Lt.ttf')}
+body {background-color: #c5d5e7}
+button {border: 0;padding: 0;cursor: pointer;overflow: visible}
+button::-moz-focus-inner {border: none;padding: 0}
+h2 {font-size: 1.4em;white-space: normal}
+h3 {-moz-margin-start: 0;-webkit-font-smoothing: antialiased;-webkit-margin-start: 0;color: #2b6db9;font-family: "helvetica-light";font-size: 2em;font-weight: normal;margin: 0 10px 0 0;line-height: 1.25em}
+header {background-color: #283c48;display: table;height: 40px;width: 100%}
+header div {display: table-cell;text-align: center;vertical-align: middle}
+header div a {color: #fff;cursor: pointer;display: table;font-size: 1.68em;margin: 0 auto;text-decoration: none}
+header div img {vertical-align: middle}
+header div span {display: table-cell;font-family: 'icomoon';text-align: center;vertical-align: middle}
+
+.botao {-moz-transform: translate(0, 0);-ms-transform: translate(0, 0);-o-transform: translate(0, 0);-webkit-transform: translate(0, 0);transform: translate(0, 0);background: #77a4d7;color: #eaedf1;font-weight: 700;line-height: 30px;margin: 0 0.45em;padding: 0 20px;text-transform: uppercase;vertical-align: top}
+.botao:active {-moz-transform: translate(1px, 4px);-ms-transform: translate(1px, 4px);-o-transform: translate(1px, 4px);-webkit-transform: translate(1px, 4px);transform: translate(1px, 4px)}
+.botao:before {background: #2b6db9;color: #77a4d7;font-family: 'icomoon';font-weight: normal;left: 0;position: absolute;width: 42px}
+.botao:focus {outline: 0.1em #77a4d7 solid}
+.bodyLink {color: #798B8D;font-size: 11px;cursor: pointer;font-weight: 700;list-style: none;margin: 8px 0;text-decoration: none;text-transform: none}
+.caixaTextoPeq {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;background-color: #eaedf1;border: none;cursor: text;overflow: hidden;resize: none}
+.celula {display: table-cell;vertical-align: middle;width: 100px}
+.checkbox input[type=checkbox], .radio input[type=radio] {display: none}
+.checkbox input[type=checkbox]:checked + label:before {background-color:#77a4d7;color: #eaedf1;content: "\2713";font-size: 1.2em;line-height: 16px}
+.checkbox label, .radio label {cursor: pointer;display: inline-block;margin-right: 15px;padding-left: 25px;position: relative}
+.checkbox label:before {border-radius: 0}
+.checkbox label:before, .radio label:before {box-sizing: border-box;border: 1px solid;border-color: #77a4d7;bottom: 1px;content: "";height: 18px;left:0;position: absolute;width: 18px}
+.chosenSelect {width: 190px}
+.chosenSelect + .chosen-container-active.chosen-with-drop .chosen-single {background: #eaedf1}
+.chosenSelect + .chosen-container-active.chosen-with-drop .chosen-single div b {background-position: -18px 6px}
+.chosenSelect + .chosen-container-single .chosen-single {height: 30px;border-radius: 0;background: #eaedf1;border: none; box-shadow: none}
+.chosenSelect + .chosen-container-single .chosen-single div b {background-position: 0 6px}
+.chosenSelect + .chosen-container-single .chosen-single span {height: 30px;line-height: 30px}
+.chosenSelect + .chosen-drop .chosen-results {max-height: 100px; background: #eaedf1}
+.chosenTabelaSelect {width: 80%}
+.chosenTabelaSelect + .chosen-container-active.chosen-with-drop .chosen-single {background: transparent;border: 1px solid #236688}
+.chosenTabelaSelect + .chosen-container-active.chosen-with-drop .chosen-single div b {background-position: -18px 1px}
+.chosenTabelaSelect + .chosen-container-single .chosen-single {box-sizing: border-box;background: transparent;height: 23px;border: 1px solid #236688;border-radius: 0;box-shadow: none}
+.chosenTabelaSelect + .chosen-container-single .chosen-single div b {background-position: 0 1px}
+.chosenTabelaSelect + .chosen-container-single .chosen-single span {height: 23px;line-height: 23px}
+.chosenTabelaSelect + .chosen-drop .chosen-results {background: transparent; border: 1px solid #236688; border-top:0; max-height: 100px}
+.content {margin-left: 2%;width: 98%}
+.editableText {cursor: text}
+.editableText:focus {outline: none;border-color: #9ecaed;box-shadow: 0 0 10px #9ecaed}
+.error {-moz-border-radius: 6px;-webkit-border-radius: 6px;background: #e52727;border-radius: 6px;color: #fff;display: table}
+.error span {display: table-cell;padding: 7px;text-align: center;vertical-align: middle}
+.iconwrapper {background-color: #77a4d7;padding: 7px}
+.inputarea {background-color: #eaedf1;height: 30px}
+.inputarea input[type=text], .inputarea input[type=password] {background-color: transparent;border: none;font-family: 'helvetica-light';height: 100%;padding: 0;text-indent: 2%;width: 100%}
+.inputarea input[type=text].dinheiro, .inputarea input[type=password].dinheiro {width: 87%}
+.inputareaProcura {background-color: #fff;height: 30px;margin-right: 5px}
+.inputareaTable {box-sizing: border-box;background-color: transparent;border: 1px solid #236688;float: none;height: 25px;margin: 0 auto;text-align:left}
+.inputareaTable input[type=text], .inputareaTable input[type=password] {background-color: transparent;border: none;font-family: 'helvetica-light';height: 100%;padding: 0;text-indent: 2%;vertical-align: top; width: 100%}
+.inputareaTable input[type=text].dinheiro, .inputareaTable input[type=password].dinheiro {width: 87%}
+.labelNormal {line-height: 30px}
+.left {float: left}
+.linha {margin-bottom: 20px;width: 100%}
+.linha10 {margin-bottom: 10px;width: 100%}
+.loading {margin: 0 auto;width: 150px}
+.loading p {font-size: 0.875em;margin: 0;text-align: center}
+.middle {display: table-cell;vertical-align: middle}
+.mnyLabel {background-color: #77a4d7;text-align: center;width: 10.5%}
+.mnyLabel span {color: #fff;cursor: default;line-height: 30px}
+.novolabelicon {-webkit-font-smoothing: antialiased;color: #eaedf1;font-family: 'icomoon';font-size: 1.4em;font-weight: normal}
+.panel {width: 10%}
+.radio input[type=radio]:checked + label:before {background-color:#77a4d7;color: #2b6db9;content: "\2022";font-size: 30px;line-height: 18px}
+.radio label:before {border-radius: 8px}
+.right {float: right}
+.tabela {border-collapse: inherit;border-spacing: 2px;font-family: "helvetica-light";font-size: 0.93em;margin: 0 0 10px 0;padding: 0;width: 100%}
+.tabela td {color: #001c3c;padding: 7px;text-align: center;vertical-align: middle}
+.tabela tr:nth-child(odd) td {background-color: #eaedf1}
+.tabela tr:nth-child(even) td {background-color: #ccd8e8}
+.tabela tr:nth-child(odd) .iconwrapper{background-color: #77a4d7}
+.tabela tr:nth-child(even) .iconwrapper {background-color: #77a4d7}
+.tabela tr:nth-child(odd) .transparent {background-color: transparent}
+.tabela tr:nth-child(even) .transparent {background-color: transparent}
+.tabela tr:first-child td {background-color: #2b6db9;color: #fff;text-align: center}
+.textoCentro {text-align: center}
+.transparent {background-color: transparent}
+.var_content {box-sizing: border-box;background-color: #fff;font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: .875em;line-height: 1.5em;margin: 2% 0 0 4%;min-height: 420px;padding: 2%;width: 94%}
+.width5 {width: 5%}
+.width10 {width: 10%}
+.width15 {width: 15%}
+.width20 {width: 20%}
+.width25 {width: 25%}
+.width30 {width: 30%}
+.width35 {width: 35%}
+.width40 {width: 40%}
+.width45 {width: 45%}
+.width50 {width: 50%}
+.width55 {width: 55%}
+.width60 {width: 60%}
+.width70 {width: 70%}
+.width80 {width: 80%}
+.width85 {width: 85%}
+.width90 {width: 90%}
+.width95 {width: 95%}
+.width100 {width: 100%}
+.width130 {width: 130px}
+.width190 {width: 190px}
+.widthMax190 {max-width: 190px}
+.widthMax380 {max-width: 380px}

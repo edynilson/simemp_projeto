@@ -1,0 +1,14 @@
+/*
+* @Author: Ricardo Órfão
+* @Date:   2014-09-22 15:03:55
+* @Last Modified by:   Ricardo Órfão
+* @Last Modified time: 2014-09-26 18:15:55
+*/
+
+/*csslint box-sizing: false, important: true*/
+.chosen-container {float: right; margin-right:2px}
+.chosenSelect {width: 90px}
+.icon-lupa:before {content: '\e603'}
+.iconwrapper {cursor:default; padding: 4.5px 5px}
+.inputarea {background-color: #fff; margin-left: 2px}
+.inputarea input[type=text].procura {box-sizing: border-box;border: 1px #77a4d7 solid;font-size: 0.875em;width: 140px}
