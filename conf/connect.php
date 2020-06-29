@@ -14,7 +14,7 @@ $dbPass = '';//no localhost
 $charset = 'utf8';
 
 try {
-    $connection = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset", $dbUser, $dbPass);// uso do mysql
+    $connection = new PDO("mysql:host=$host;port=3308;dbname=$dbname;charset=$charset", $dbUser, $dbPass);// uso do mysql
 //    $connection = new PDO("mysql:host=$host;port=3307;dbname=$dbname;charset=$charset", $dbUser, $dbPass);//uso do mariadb
     $connection->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

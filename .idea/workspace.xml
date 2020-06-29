@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d10f7602-07fb-4596-80d0-8fb307d5161f" name="Default Changelist" comment="" />
+    <list default="true" id="d10f7602-07fb-4596-80d0-8fb307d5161f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDOErrors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PDOErrors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDOErrors_acoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PDOErrors_acoes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/conf/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conteudo_banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/conteudo_banco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/funcoes_registo.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/funcoes_registo.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,19 +17,15 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/phpfastcache/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Não Tem</find>
-      <find>credito</find>
-      <find>banco</find>
-    </findStrings>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../projeto_simemp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../php/pear" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1Zob2vRUfIlGIh3VTFPA4af7DKb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -29,7 +33,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -68,11 +71,14 @@
       <workItem from="1585510757503" duration="373000" />
       <workItem from="1585511201446" duration="481000" />
       <workItem from="1585511704747" duration="326000" />
+      <workItem from="1592594375658" duration="4186000" />
+      <workItem from="1592932255914" duration="4262000" />
+      <workItem from="1593440689772" duration="2752000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -81,6 +87,18 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1592598082807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1592598082807" />
+    <state x="568" y="226" key="#Notifications" timestamp="1592597599495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1592597599495" />
+    <state x="390" y="6" key="#PHP" timestamp="1592598100248">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="6" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1592598100248" />
     <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585510957428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -109,5 +127,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585510586319" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/login.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

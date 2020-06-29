@@ -222,7 +222,7 @@ $query_tx_iva->execute(array('id_empresa' => $_SESSION['id_empresa']));
 /* Conexão 2ª BD */
 try {
 //    $connection_bd_acao = new PDO("mysql:host=localhost;dbname=simemp_acoes;charset=utf8", 'root', 'T4h6m3YuniurhCDfHGE9VYBQmQMszt8x');
-    $connection_bd_acao = new PDO("mysql:host=localhost;dbname=simemp_acoes;charset=utf8", 'root', '');
+    $connection_bd_acao = new PDO("mysql:host=localhost;port=3308;dbname=simemp_acoes;charset=utf8", 'root', '');
     $connection_bd_acao->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $connection_bd_acao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     

@@ -459,7 +459,7 @@ if ($_POST['tipo'] == "gera_nipc") {
                     if ($num_registos == 1) {
                         $_SESSION['id_utilizador'] = $user_id;
                         $_SESSION['id_grupo'] = $grupo;
-                        $arr = array('sucesso' => true, 'pagina' => "pag_regemp.php");
+                        $arr = array('sucesso' => true, 'pagina' => "index1.php");
                     } else {
                         $arr = array('sucesso' => false, 'mensagem' => "Algo correu mal na inserção");
                     }
